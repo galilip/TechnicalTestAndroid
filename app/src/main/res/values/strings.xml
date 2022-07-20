@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NewsReaderExperimentation</string>
+    <string name="se_rendre_sur_le_site">Se rendre sur le site</string>
+    <string name="image_news">image news</string>
+</resources>
