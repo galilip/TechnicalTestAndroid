@@ -15,9 +15,9 @@ I chose Picasso because library was easier and lighter than Glide
 Furthermore I had already taken Retrofit for calling API, a framework by the same team
 
 After spending time implementing a MVVM pattern with Coroutines I found out that I was not very
-comfortable with it, so I've decided to remove it, and make things easier to me
-MVVM pattern as below
+comfortable with it, so I've decided to remove it, and make things easier to me.
 
+# my MVVM pattern 
 model : News/Article/Source to represent datas
 repository : NewsRepository, between my ViewModel & the API, it consume NewsDOC api through Retrofit
 viewmodel : NewsViewModel, will store & manage my data persistance
@@ -30,6 +30,8 @@ after trying many things (Secret gradle plugin, local.properties, and others),
 I found a simple solution, I've put my API KEYS into gradle.properties, then after
 setting up a buildConfigField into my app/build.gradle
 I was able to simply use BuildConfig.NEWSDOC_API_KEY to use it in my code
+I've added gradle.properties to gitignore 
+
 
 ##### Unit Test
 I was not very confident, didn't have opportunities to write with android
@@ -59,6 +61,20 @@ then when I rewrote app, spent around 10/12 hours
 
 This is not perfect, but it was made with passion ! I'm eager to learn new
 things & cool stuff in mobile dev :)
+
+## HOW TO RUN 
+### within IDE
+1) Simply git clone project and open it in Android Studio 
+2) Plug a device & run on it 
+
+### APK standalone
+You may find .apk under app/build/outputs/apk/debug/app-debug.apk
+you can install directly to your smartphone and run it 
+
+### DEMO 
+as sometimes stars are not aligned, here's a recorded demo :) 
+https://we.tl/t-Bgg06gQxDR
+
 
 
 
