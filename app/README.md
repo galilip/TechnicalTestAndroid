@@ -54,6 +54,8 @@ bottom button.
 
 You can also vertical swipe with your finger to update news list.
 
+spent a week learning stuff evening after work day and trying things
+then when I rewrote app, spent around 10/12 hours
 
 This is not perfect, but it was made with passion ! I'm eager to learn new
 things & cool stuff in mobile dev :)
